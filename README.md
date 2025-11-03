@@ -47,28 +47,28 @@ This system acts as a personal ergonomic assistant, detecting bad posture in rea
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
 
 📁 RealTime-3D-HumanPose-YOLOv8
 │
-├── miniprojectfinal.py # Main project script
-├── model testing.py # Testing and evaluation
-├── yolo.py # Helper functions for YOLO model
+├── 📄 miniprojectfinal.py # Main source file
+├── 📄 model testing.py # Testing & evaluation script
+├── 📄 yolo.py # YOLO helper module
 │
-├── yolov8n.pt # YOLOv8 base model
-├── yolov8n-cls.pt # Classification model
-├── yolov8n-pose.pt # Pose estimation weights
-├── yolov8x-pose-p6.pt # High-accuracy pretrained weights
+├── 📄 yolov8n.pt # YOLOv8 base model weights
+├── 📄 yolov8n-cls.pt # Classification weights
+├── 📄 yolov8n-pose.pt # Pose estimation weights
+├── 📄 yolov8x-pose-p6.pt # Pretrained YOLOv8x-pose weights
 │
-├── model.sav # Serialized trained model
+├── 📄 model.sav # Serialized model file
 │
-├── datasets/ # Dataset and annotation files
-│ └── ... # COCO-Pose or custom data
+├── 📁 datasets/ # Training data and annotations
+│ └── ... # COCO-Pose or custom dataset
 │
-├── runs/ # YOLOv8 training results and logs
-│ └── detect/pose/ # Metrics, model checkpoints
+├── 📁 runs/ # YOLOv8 training logs & checkpoints
+│ └── detect/pose/ # Model results
 │
-└── README.md # Project documentation
+└── 📄 README.md # Documentation
 
 ---
 
