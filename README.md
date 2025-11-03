@@ -29,27 +29,26 @@ Data Handling	NumPy, Pandas
 Visualization	Matplotlib
 Deployment (Optional)	Flask / Streamlit
 
-RealTime-3D-HumanPose-YOLOv8
+📁 RealTime-3D-HumanPose-YOLOv8
 │
-├── miniprojectfinal.py          # Main project script
-├── model testing.py             # Testing and evaluation
-├── yolo.py                      # Helper functions for YOLO model
+├── 📄 miniprojectfinal.py          # Main project script
+├── 📄 model testing.py             # Testing and evaluation
+├── 📄 yolo.py                      # Helper functions for YOLO model
 │
-├── yolov8n.pt                   # YOLOv8 base model
-├── yolov8n-cls.pt               # Classification model
-├── yolov8n-pose.pt              # Pose estimation weights
-├── yolov8x-pose-p6.pt           # High-accuracy pretrained weights
+├── 📄 yolov8n.pt                   # YOLOv8 base model
+├── 📄 yolov8n-cls.pt               # Classification model
+├── 📄 yolov8n-pose.pt              # Pose estimation weights
+├── 📄 yolov8x-pose-p6.pt           # High-accuracy pretrained weights
 │
-├── model.sav                    # Serialized trained model
+├── 📄 model.sav                    # Serialized trained model
 │
-├── datasets/                    # Dataset and annotation files
+├── 📁 datasets/                    # Dataset and annotation files
 │   └── ...                         # COCO-Pose or custom data
 │
-├── runs/                        # YOLOv8 training results and logs
+├── 📁 runs/                        # YOLOv8 training results and logs
 │   └── detect/pose/                # Metrics, model checkpoints
 │
-└── README.md                    # Project documentation
-
+└── 📄 README.md                    # Project documentation
 
 Methodology
 1.Data Collection
