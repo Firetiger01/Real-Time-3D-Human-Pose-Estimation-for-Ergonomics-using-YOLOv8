@@ -29,7 +29,6 @@ Data Handling	NumPy, Pandas
 Visualization	Matplotlib
 Deployment (Optional)	Flask / Streamlit
 
-Folder Structure
 RealTime-3D-HumanPose-YOLOv8
 │
 ├── miniprojectfinal.py          # Main project script
@@ -50,6 +49,7 @@ RealTime-3D-HumanPose-YOLOv8
 │   └── detect/pose/                # Metrics, model checkpoints
 │
 └── README.md                    # Project documentation
+
 
 Methodology
 1.Data Collection
